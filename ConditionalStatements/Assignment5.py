@@ -84,7 +84,16 @@
 
 # Q6: check if the key is present , if present then increment or initialize the value to 1
 #
-# d = {'Mobile': 'Iphone', }
+d = {'Mobile': 'Iphone', 'version' : 'Iphone15'}
+
+key = 'price'
+
+if key in d :
+    d[key] += 1
+else:
+    d[key] = 1
+
+print(d)
 
 
 # Q7: check if the given value is string or not
